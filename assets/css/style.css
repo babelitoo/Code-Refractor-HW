@@ -1,13 +1,14 @@
+/* Universal */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Whole page background color */
 body {
     background-color: #d9dcd6;
 }
-
+/* Style and Position of the Whole Header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +21,7 @@ header h1 {
     font-size: 48px;
 }
 
-
+/* links position */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,15 +39,18 @@ header ul li {
     margin-left: 25px;
 }
 
+/* Color of links and no underlined */
 header a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* parragraph size */
 p {
     font-size: 16px;
 }
 
+/* Main Image size */
 .hero img {
     height: 800px;
     width: 100%;
@@ -54,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+ /* Content Images position */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,6 +75,7 @@ p {
     margin-left: 10px;
 }
 
+/* benefits section style and positioning */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -92,12 +97,14 @@ div.benefits div {
     margin-bottom: 32px;
 }
 
+/* benefits image size */
 div.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* content section style and positioning */
 .content div {
     margin-bottom: 20px;
     padding: 50px;
@@ -107,6 +114,7 @@ div.benefits img {
     color: #ffffff;
 }
 
+/* content image size */
 .content img {
     max-height: 200px;
 }
@@ -116,6 +124,7 @@ div.benefits img {
     font-size: 36px;
 }
 
+/* footing style and postioning */
 footer {
     padding: 30px;
     clear: both;
